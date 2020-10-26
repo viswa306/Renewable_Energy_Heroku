@@ -1,6 +1,8 @@
 // var data_path="../static/data/energymerged.json"
 // var data_path="../Resources/last_tenyear_renew_percent.csv"
-data_path = "http://127.0.0.1:5000/tenyearrenewpercent"
+// data_path = "http://127.0.0.1:5000/tenyearrenewpercent"
+
+data_path = "https://renewable-energy-heroku.herokuapp.com/tenyearrenewpercent"
 
 
 

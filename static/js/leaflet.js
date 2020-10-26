@@ -29,8 +29,12 @@ function getColor(d) {
 // source_data_path = "../static/data/energymerged.json";
 // gdp_data_path = "../static/data/countrygdp.json";
 
-source_data_path = "http://127.0.0.1:5000/energymerged";
-gdp_data_path = "http://127.0.0.1:5000/countrygdpdata";
+// source_data_path = "http://127.0.0.1:5000/energymerged";
+// gdp_data_path = "http://127.0.0.1:5000/countrygdpdata";
+
+
+source_data_path = "https://renewable-energy-heroku.herokuapp.com/energymerged";
+gdp_data_path = "https://renewable-energy-heroku.herokuapp.com/countrygdpdata";
 
 console.log(gdp_data_path)
 

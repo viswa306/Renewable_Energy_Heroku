@@ -1,7 +1,9 @@
 
 // dbpath = "../static/data/energymerged.json"
 
-dbpath = "http://127.0.0.1:5000/energymerged"
+// dbpath = "http://127.0.0.1:5000/energymerged"
+dbpath = "https://renewable-energy-heroku.herokuapp.com/energymerged"
+
 
 // Convert the string to title case
 function toTitleCase(getStr) {
